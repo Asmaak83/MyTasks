@@ -1,17 +1,15 @@
 <template>
   <div
     class="review"
-    style="background-color:#FCF9EF;"
   >
     <div
       id="carouselExampleIndicators"
       class="carousel slide"
       data-bs-ride="carousel"
     >
-      <div class="carousel-indicators">
+      <div class="boxs carousel-indicators ">
         <button
           type="button"
-          style="width:10px; height:10px; border-radius:100%;background-color:#06716A; "
           data-bs-target="#carouselExampleIndicators"
           data-bs-slide-to="0"
           
@@ -22,14 +20,12 @@
           type="button"
           data-bs-target="#carouselExampleIndicators"
           data-bs-slide-to="1"
-          style="width:10px; height:10px; border-radius:100%;background-color:#06716A; "
           aria-label="Slide 2"
         />
         <button
           type="button"
           data-bs-target="#carouselExampleIndicators"
           data-bs-slide-to="2"
-          style="width:10px; height:10px; border-radius:100%;background-color:#06716A; "
           class="active "
           aria-label="Slide 3"
         />
@@ -38,7 +34,6 @@
         <div class="carousel-item active">
           <div
             class="container pb-5 pt-5 "
-            style="color: #06716A;"
           >
             <h2 class="m-auto text-center fw-bold pt-5 pb-5">
               شهادات
@@ -47,7 +42,6 @@
               <div class="p-3 ms-4 me-4  ">
                 <div
                   class="card text-center "
-                  style="width: 14rem;"
                 >
                   <div class="card-body text-center  shadow bg-body rounded ">
                     <h5 class="card-title fw-bold pb-2">
@@ -82,7 +76,6 @@
               <div class="p-3 ms-4 me-4">
                 <div
                   class="card text-center"
-                  style="width: 14rem;"
                 >
                   <div class="card-body shadow bg-body rounded ">
                     <h5 class="card-title fw-bold pb-2">
@@ -117,7 +110,6 @@
               <div class="p-3 ms-4 me-4 ">
                 <div
                   class="card text-center"
-                  style="width: 14rem;"
                 >
                   <div class="card-body shadow bg-body rounded ">
                     <h5 class="card-title fw-bold pb-2">
@@ -155,7 +147,6 @@
         <div class="carousel-item">
           <div
             class="container pb-5 pt-5 "
-            style="color: #06716A;"
           >
             <h2 class="m-auto text-center fw-bold pt-5 pb-5">
               شهادات
@@ -164,7 +155,6 @@
               <div class=" p-3 ms-4 me-4 ">
                 <div
                   class="card text-center "
-                  style="width: 14rem;"
                 >
                   <div class="card-body text-center  shadow bg-body rounded ">
                     <h5 class="card-title fw-bold pb-2">
@@ -199,7 +189,6 @@
               <div class="p-3 ms-4 me-4 ">
                 <div
                   class="card text-center"
-                  style="width: 14rem;"
                 >
                   <div class="card-body shadow bg-body rounded ">
                     <h5 class="card-title fw-bold pb-2">
@@ -234,7 +223,6 @@
               <div class=" p-3 ms-4 me-4 ">
                 <div
                   class="card text-center"
-                  style="width: 14rem;"
                 >
                   <div class="card-body shadow bg-body rounded ">
                     <h5 class="card-title fw-bold pb-2">
@@ -272,7 +260,6 @@
         <div class="carousel-item">
           <div
             class="container pb-5 pt-5 "
-            style="color: #06716A;"
           >
             <h2 class="m-auto text-center fw-bold pt-5 pb-5">
               شهادات
@@ -281,7 +268,6 @@
               <div class="p-3 ms-4 me-4 ">
                 <div
                   class="card text-center "
-                  style="width: 14rem;"
                 >
                   <div class="card-body text-center  shadow bg-body rounded ">
                     <h5 class="card-title fw-bold pb-2">
@@ -316,7 +302,6 @@
               <div class="p-3 ms-4 me-4 ">
                 <div
                   class="card text-center"
-                  style="width: 14rem;"
                 >
                   <div class="card-body shadow bg-body rounded ">
                     <h5 class="card-title fw-bold pb-2">
@@ -351,7 +336,6 @@
               <div class="p-3 ms-4 me-4 ">
                 <div
                   class="card text-center"
-                  style="width: 14rem;"
                 >
                   <div class="card-body shadow bg-body rounded ">
                     <h5 class="card-title fw-bold pb-2">
@@ -420,3 +404,7 @@
     name:"ReviewVue",
     }
   </script>
+  <style lang="scss" >
+
+
+  </style>

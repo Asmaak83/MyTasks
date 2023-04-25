@@ -2,3 +2,14 @@
 @use "global/reset";
 //style header
 @use "global/navbar";
+//style about
+@use "global/about";
+//style clander
+@use "global/clander";
+//style review
+@use "global/review";
+//style contect
+@use "global/connect";
+//style footer
+@use "global/footer";
+@import url('https://fonts.googleapis.com/css2?family=Edu+QLD+Beginner:wght@400;500&family=Montserrat+Alternates:wght@300&family=Noto+Naskh+Arabic:wght@600&family=Open+Sans:wght@300;400;700&family=Roboto&display=swap');

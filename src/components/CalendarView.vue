@@ -1,13 +1,11 @@
 <template>
   <div
-    class=""
-    style="background-color: #CFFAF8;"
+    class="calender"
   >
     <div class="containar  container-md-fluid">
       <div class="row">
-        <div class=" col">
+        <div class=" col img-responsive">
           <img
-            class=" img-fluid"
             src="../images/imagecland1.png"
           >
         </div>
@@ -19,7 +17,6 @@
             >
             <div
               class="text m-auto text-end me-5 pe-5 pt-5  "
-              style="color:#3A3791;"
             >
               <h2 class=" pb-3 fw-bold">
                 التقويم
@@ -41,11 +38,3 @@ export default {
     name: "CalendarView",
 }
 </script>
-<style lang="scss" scoped>
-.container{
-    .box p{
-        color:#3A3791;
-
-    }
-}
-</style>

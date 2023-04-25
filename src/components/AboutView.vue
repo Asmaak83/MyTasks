@@ -2,35 +2,32 @@
   <div
     id="changColor"
     class="about"
-    style="background-color: #8BDED8;" 
   >
     <div
-      class="container p-5"
+      class="container  p-5"
     >
       <div class="row">
-        <div class="col">
+        <div class="col col-sm-5">
           <div
-            class="imgs  img-fluid   w-md-50  "
+            class="imgs img-responsive  w-md-50  "
           >
             <img
               class="one img-fluid text-center img-thumbnail "
-              style="opacity:0.75"
               src="../images/photo1.png"
             >
             <img
-              class="two d-none text-center bg-overlay img-fluid img-thumbnail "
-              style="opacity:0.75"
+              class="two d-none text-center bg-overlay img-responsive img-thumbnail "
               src="../images/photo2.png"
             >
             <img
-              class="three d-none text-center bg-opacity-75 img-fluid img-thumbnail "
+              class="three d-none text-center bg-opacity-75 img-responsive img-thumbnail "
               src="../images/photo3.png"
             >
           </div>
         </div>
-        <div class=" col  m-auto pe-5 pb-3 text-end ">
+        <div class=" col col-sm-7  m-auto pe-5 pb-3 text-end ">
           <p
-            class="text-light pb-2 fw-bold fs-1 md-fs-5 fs-sm-4"
+            class="text-light pb-2 fw-bold fs-1 md-fs-5 fs-sm-6"
           >
             تعرفي على مراحل دورتك بالتفصيل
           </p>
@@ -42,9 +39,9 @@
             data-cont2="#8BDED8"
             data-color="#8BDED8"
           >
-            <h5 class="fw-bold">
-              مرحبلة ما قبل الاباضة
-            </h5>
+            <p class="fw-bold fs-5 fs-sm-6">
+              مرحلة ما قبل الاباضة
+            </p>
             <p>تتبع هذه المرحلة يشجعك على القيام بفعاليات مختلفة مثل الرياضة</p>
           </div>
           <div
@@ -127,7 +124,6 @@ export default {
              backg.style.background=e.currentTarget.dataset.cont2;
              document.querySelector(e.currentTarget.dataset.cont).style.background=e.currentTarget.dataset.color;
             document.querySelector(e.currentTarget.dataset.cont).classList.remove('d-none');
-            
             document.querySelector(e.currentTarget.dataset.cont).style.display = "block";
             
 
@@ -138,20 +134,3 @@ export default {
 }
 
 </script>
-<style lang="scss" scoped>
-.about{
-  img{
-    width:230px;
-    height:500px;
-    background-color: rgba(139, 222, 216, .5);
-    border-radius:24px;
-   text-align:center;
-  }
-  .box{
-color: #3A3791;
-border-radius:24px;
-
-  }
-}
-
-</style>

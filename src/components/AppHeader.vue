@@ -60,7 +60,7 @@
           >
             <li class="nav-item ms-3">
               <a
-                class="nav-link p-lg-3  text-center fs-6 "
+                class="nav-link p-lg-3 fw-bold  text-center fs-6 "
                 aria-current="page"
               >مقالات</a>
             </li>
@@ -86,12 +86,4 @@ export default {
   name: "AppHeader",
 };
 </script>
-<style lang="scss" scoped>
-.navbar .navbar-toggler:focus{
-  box-shadow:none;
-}
-   ul li a{
-         
-        font-weight:700;
-    }
-</style>
+
