@@ -7,9 +7,9 @@
       class="container  p-5"
     >
       <div class="row">
-        <div class="col col-sm-5">
+        <div class="col-lg-6 col-md-7">
           <div
-            class="imgs img-responsive  w-md-50  "
+            class="imgs img-responsive  "
           >
             <img
               class="one img-fluid text-center img-thumbnail "
@@ -25,9 +25,9 @@
             >
           </div>
         </div>
-        <div class=" col col-sm-7  m-auto pe-5 pb-3 text-end ">
+        <div class=" col-lg-6 col-md-5  m-auto pe-5 pb-3 text-end ">
           <p
-            class="text-light pb-2 fw-bold fs-1 md-fs-5 fs-sm-6"
+            class="text-light pb-2 fw-bold fs-1 fs-md-5 fs-xs-6"
           >
             تعرفي على مراحل دورتك بالتفصيل
           </p>

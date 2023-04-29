@@ -2,18 +2,6 @@
   <div class="footer">
     <div class="container mt-5">
       <div class="contant text-end d-md-flex flex-md-column-reverse">
-        <div class="row">
-          <div class="col">
-            <p class="  fw-bold">
-              سياسة الخصوصية   <span class="me-3">الأحكام والشروط</span>
-            </p>
-          </div>
-          <div class="col">
-            <p>
-              <span class="dat">© 2022 Tahara </span>جميع الحقوق محفوظة
-            </p>
-          </div>
-        </div>
         <div class="row ">
           <div class="col-lg-5 col-md-6 conect ">
             <h3
@@ -22,7 +10,9 @@
               معلومات التواصل
             </h3>
             <p> tahara@tahara.com.sa:البريد الالكتروني </p>
-            <p>رقم الهاتف : 56658544455</p>
+            <p>
+              رقم الهاتف : 56658544455
+            </p>
             <p> http//tahara.com.sa/:موقعنا</p>
           </div>
           <div class="col-md-6 col-lg-3 links ">
@@ -76,19 +66,34 @@
                 <font-awesome-icon icon="fa-brands fa-google-play" /> Google Play
               </button>
             </div>
-            <div class="icon">
-              <font-awesome-icon
-                icon="fa-brands fa-instagram"
-                class="p-2 me-3 ms-3 rounded-circle"
-              />
-              <font-awesome-icon
-                icon="fa-brands fa-twitter"
-                class="p-2 me-3 rounded-circle"
-              />
-              <font-awesome-icon
-                icon="fa-brands fa-facebook"
-                class="p-2 rounded-circle"
-              />
+          </div>
+          <div class="row">
+            <div class="col-lg-4 col-md-5 fs-6 ">
+              <p class="  fw-bold">
+                سياسة الخصوصية   <span class="me-3">الأحكام والشروط</span>
+              </p>
+            </div>
+            <div class="col-lg-4 col-md-5">
+              <p>
+                <span class="dat">© 2022 Tahara </span>جميع الحقوق محفوظة
+              </p>
+            </div>
+           
+            <div class="col-lg-4 ">
+              <div class="icons">
+                <font-awesome-icon
+                  icon="fa-brands fa-instagram"
+                  class="icon p-2 me-1 m-md-0 rounded-circle"
+                />
+                <font-awesome-icon
+                  icon="fa-brands fa-twitter"
+                  class="icon p-2 me-1 m-md-0 rounded-circle"
+                />
+                <font-awesome-icon
+                  icon="fa-brands fa-facebook"
+                  class="icon p-2 rounded-circle"
+                />
+              </div>
             </div>
           </div>
         </div>
